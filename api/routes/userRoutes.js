@@ -5,3 +5,4 @@ module.exports = function(app) {
   // todoList Routes
   app.route('/users')
     .get(userController.list_all_users);
+};
